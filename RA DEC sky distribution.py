@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Mar  6 20:07:41 2023
-
-@author: Tom
-"""
-
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -31,6 +24,7 @@ plt.ylabel('Declination, DEC, (deg)')
 plt.title('Declination Vursus Right Ascension for All Galaxies')
 plt.grid()
 plt.legend(loc='upper left')
+
 
 
 plt.show()
