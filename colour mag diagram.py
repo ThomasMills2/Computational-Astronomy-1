@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Mar  7 17:14:31 2023
-
-@author: Tom
-"""
-
 import pandas as pd
 import matplotlib.pyplot as plt 
 import numpy as np
@@ -47,5 +40,6 @@ plt.title('Colour-Magnitude diagram for All Galaxies')
 plt.legend()
 plt.annotate('Red Cloud', (-20,0.9), fontsize=13, color='red')
 plt.annotate('Blue Sequence', (-24,0.5), fontsize=14, color='navy')
+
 
 plt.show()
