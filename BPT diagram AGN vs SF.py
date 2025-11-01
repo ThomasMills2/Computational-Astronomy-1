@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Mar  9 10:42:27 2023
-
-@author: Tom
-"""
-
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -48,4 +41,5 @@ plt.ylim(-1.5, 1.5)
 plt.annotate('AGN', (0.1,1), fontsize=15, color='red')
 plt.annotate('Star-Forming Galaxies', (-1.4,-0.5), fontsize=14, color='orange')
 plt.show()
+
             
