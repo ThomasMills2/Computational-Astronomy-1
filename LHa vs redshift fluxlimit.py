@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Mar  8 21:08:31 2023
-
-@author: Tom
-"""
-
 import pandas as pd
 import matplotlib.pyplot as plt 
 import numpy as np
@@ -37,4 +30,5 @@ plt.title('Luminosity Versus Redshift')
 plt.legend()
 plt.yscale('log')
 plt.grid()
+
 plt.show()
